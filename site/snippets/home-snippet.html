@@ -1,0 +1,22 @@
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuCategories();"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">
+          <div id="specials-tile"><span>specials</span></div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://www.google.com/maps/place/The+Ivy+Restaurant/@28.4254394,77.0547799,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x390d18801200c40d:0x3bb5f7ecaf0f2774!2sThe+Ivy+Restaurant!8m2!3d28.4254347!4d77.0569739!3m4!1s0x390d18801200c40d:0x3bb5f7ecaf0f2774!8m2!3d28.4254347!4d77.0569739" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.7950846669864!2d77.05477985065401!3d28.4254394000885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18801200c40d%3A0x3bb5f7ecaf0f2774!2sThe%20Ivy%20Restaurant!5e0!3m2!1sen!2sin!4v1595348010826!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
